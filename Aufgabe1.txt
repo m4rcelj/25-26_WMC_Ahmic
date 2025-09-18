@@ -5,13 +5,10 @@ Minute in der Klasse.
 
 Antwort:
 
-Mit <datalist> kann man in einem normalen <input>-Feld eine Liste von Vorschlägen geben.
+Mit <meter> kann man einen Wert in Form eines Balkens anzeigen. zum Beispiel einen Ladebalken/Fortschrittsanzeige.
 
 Anwendung:
-<input list="klassen" name="klasse">
-<datalist id="klassen">
-  <option value="3CAIF">
-  <option value="3DAIF">
-  <option value="3BAIF">
-</datalist>
-</input>
+<meter value="0.6" min="0" max="1">60%</meter>
+
+Der Browser zeigt nun automatisch einen Balken an mit dem gegebenen Fortschritt.
+Alternativ gibt es auch <progress>.
