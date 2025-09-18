@@ -1,0 +1,17 @@
+Aufgabe: Recherche und Kurzpräsentation
+Recherchieren Sie auf z.B. https://developer.mozilla.org/de/ und finden Sie etwas interessantes über html5, das nicht allgemein bekannt ist. 4.B. ein Element, oder Attribut, oder eine andere Besonderheit.
+Fassen Sie Ihre Rechercheergebnis in zwei bis drei Sätzen zusammen, und präsentieren Sie es in unter einer
+Minute in der Klasse.
+
+Antwort:
+
+Mit <datalist> kann man in einem normalen <input>-Feld eine Liste von Vorschlägen geben.
+
+Anwendung:
+<input list="klassen" name="klasse">
+<datalist id="klassen">
+  <option value="3CAIF">
+  <option value="3DAIF">
+  <option value="3BAIF">
+</datalist>
+</input>
